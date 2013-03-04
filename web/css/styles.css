@@ -1,0 +1,774 @@
+/* CSS Document */
+
+
+body {
+		background:#E0E0E0;
+	font-family:'Droid';
+	}
+	
+::selection {
+background: #4DBCE9;
+background-image: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-position-x: initial;
+background-position-y: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: #4DBCE9;
+color: white;
+text-shadow: none;
+}
+
+#topWrapper {
+    text-shadow: 0 1px 0 white;
+	background:#000;
+  	background: -webkit-linear-gradient(top, #222, #000);
+  	background: -moz-linear-gradient(top, #222, #000);
+	height:40px;
+	}
+	
+#topLogin {
+    text-shadow: 0 1px 0 white;
+	background:#000;
+  	background: -webkit-linear-gradient(top, #222, #000);
+  	background: -moz-linear-gradient(top, #222, #000);
+	box-shadow:  0px 0px 10px #000;
+	display: none;
+	}
+	
+#LoginBox {
+	box-shadow: inset 0px 0px 10px #000;
+	border-radius:10px;
+	border-top: 2px solid #373737;
+	padding:20px;
+	margin:10px;
+	font-family:"Arial";
+	font-family:"Droid";
+  	background: -webkit-linear-gradient(top, #000, #222);
+  	background: -moz-linear-gradient(top, #000, #222);
+	color:#FFF;
+	text-shadow:none;
+}	
+#LoginBox label {
+	color:#FFF;
+	
+}
+
+#LoginBox td {
+	padding:3px 0px;
+}
+
+
+#RegisterForm {
+	border-left:1px solid #CCC;
+	padding-left:50px;
+}
+
+#topLogin input, textarea {
+	margin:5px;
+	padding:7px;
+}
+#topLogin label {
+	font-size:17px;
+	margin:10px 0px;
+}
+#topLogin input:hover {
+	padding:7px;
+}
+	
+	
+#topSearch {
+    text-shadow: 0 1px 0 black;
+	background:#000;
+  	background: -webkit-linear-gradient(top,#00aac9, #026a84);
+  	background: -moz-linear-gradient(top,#00aac9, #026a84);
+	
+	box-shadow: 0px 7px 20px #666;
+	}
+	
+#logo {
+	background:url(../images/logo/Logo.png);
+	-webkit-transition:.3s all ease-in-out;
+	-moz-transition:.3s all ease-in-out;
+	background-repeat:no-repeat;
+	}
+#logo:hover {
+	background:url(../images/logo/logohover.png);
+	-webkit-transition:.3s all ease-in-out;
+	-moz-transition:.3s all ease-in-out;
+	background-repeat:no-repeat;
+	}
+
+#top {
+		float:right;
+		color:#CCC;
+	}
+
+
+#top ul li {
+	display:inline;
+	margin-top:7px;
+	float:right;
+	}
+
+#top ul li a {
+	padding:3px;
+	}
+	
+#topNav {
+		float:right;
+		color:#CCC;
+	}
+#topNav ul  {
+	margin:10px;
+	}
+#topNav ul li {
+	display:inline;
+	}
+
+#topNav ul li a {
+		padding:10px;
+		color:#FFF;
+  		
+                -webkit-transition:.3s all ease-in-out;
+                -moz-transition:.3s all ease-in-out;
+		border-radius:10px 0px 10px 0px;
+		}
+    #topNav ul li a:hover {
+            -webkit-box-shadow: inset 0 0 10px #000;
+            -moz-box-shadow: inset 0 0 5px #000;
+		padding:10px;
+  		
+                
+               text-shadow: 0 -1px 0 black;
+		}
+		
+
+#topThird {
+	background:#000;
+  	background: -webkit-linear-gradient(top, #222, #000);
+  	background: -moz-linear-gradient(top, #222, #000);
+	background:url(../images/textures/linen.png);
+	font-size:16px;
+	box-shadow: 0px 7px 20px #666;
+	}
+	
+#topThird p {
+	margin-top:5px;
+	font-family:'Droid';
+	color:#FFF;
+	}
+
+#topThird span {
+	color:#0f8ba3;
+	font-weight:bold;
+	}
+
+
+#banner {
+	background:#CCC;
+	background:url(../images/textures/linen.png);
+	height:335px;
+	box-shadow: 0px 0px 40px #000000;
+	}
+	
+#sliderContent {
+	
+	}
+
+#leftside {
+	
+	}
+#leftsideNav  {
+	background:#ade700;
+	font-family:"Droid",Arial, Helvetica, sans-serif;
+	font-size:17px;
+	border-radius:7px;
+	background:url(../images/textures/pcrumbled2x200w.png);
+	margin:15px 0px;
+
+  	background: -webkit-linear-gradient(top,#ade700, #8ebd00);
+  	background: -moz-linear-gradient(top,#ade700, #8ebd00);
+	text-shadow: 0 1px 0 white;
+	-webkit-box-shadow:0 0 7px #000;
+	-moz-box-shadow:0 0 7px #000;
+	padding:2px;
+	}
+	
+#leftside p {
+	margin:0px;
+	padding:10px 0px;
+	background:#FFF;
+	color:#333;
+	
+	}
+#leftside h1 {
+	margin:0px;
+	padding:10px 0px;
+	background:#FFF;
+	color:#333;
+	
+	}
+#leftside ul li {
+	padding:10px 0px;
+	border-bottom:1px solid black;
+        font-variant: small-caps;
+	}
+#leftside ul li a {
+	margin-left:10px;
+	padding:7px 7px;
+	-webkit-transition:.3s all ease-in-out;
+	-moz-transition:.3s all ease-in-out;
+	}
+#leftside ul li a:hover {
+	-webkit-box-shadow: inset 0 0 10px #000;
+	-moz-box-shadow: inset 0 0 5px #000;
+	border-radius:7px;
+	border-radius:0px 10px 0px 10px;
+	color:#000;
+	-webkit-transition:.3s all ease-in-out;
+	-moz-transition:.3s all ease-in-out;
+	text-shadow: 0 -1px 0 white;
+	}
+	
+#productList a img {
+            -webkit-transition:.3s all ease-in-out;
+            -moz-transition:.3s all ease-in-out;
+		width: 125px;
+		padding: 5px;
+		background: white;
+		border: 1px solid #CCC;
+                -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+		-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+                box-shadow: 0px 0px 15px 1px #AAA;
+}
+
+#productList a img:hover {
+                -webkit-transition:.3s all ease-in-out;
+                -moz-transition:.3s all ease-in-out;
+		width: 125px;
+		padding: 5px;
+		background: white;
+		border: 1px solid #CCC;
+		-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+		-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+		box-shadow: 0px 0px 15px 1px #000;
+}
+
+#productStrip {
+	float: right;
+	margin-top: 15px;
+	background: #E2E2E2;
+	margin-bottom: 17px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	border-radius:7px;
+	background-color: white;
+	color:#333;
+	}
+#productStrip p {
+	color:#333;
+	}
+
+#productList p {
+	font-family:"Droid",Arial, Helvetica, sans-serif;
+	color: #000;
+	margin-top:15px;
+	}
+
+#footer {
+	background:#CCC;
+	background:url(../images/textures/linen.png);
+	box-shadow: 0px 0px 40px #000000;
+	color:#FFF;
+	}
+
+#footer ul {
+	margin-top:15px;
+	}
+
+#footer ul li {
+	padding:5px;
+	}
+#footer ul li strong {
+	color:#FFF;
+	}
+#footer div h2 {
+	margin-top:5px;
+	color:#CCC;
+	}
+	
+#footer ul li a {
+	color:#FFF;
+	text-shadow: 0 1px 0 black;
+	}
+#footer ul li a:hover {
+	text-shadow: 0 -1px 0 #CCC;
+	
+	}
+	
+.info {
+	color: #333;
+}
+.blue {
+	color:#00384f;
+}
+.red {
+	color:#CC0000;
+	font-size:14px;
+}
+.BigRed {
+	color:#CC0000;
+	font-size:20px;
+}
+#viewMore,#viewMore h6  {
+	float:right;
+	text-align:right;
+	}
+	
+.ProductHeading {
+	height:20px;
+	margin-bottom:10px;
+	padding:10px 0px;
+	border-bottom:1px solid #333;
+}
+.ProductHeading  h2{
+	font: 'Droid' Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	
+}
+
+	
+.ProductHeading h6:hover {
+	color:#8ebd00;
+}
+.ProductHeading h2:hover {
+	color:#333;
+	text-decoration:underline;
+}
+
+.h2heading {
+	font: 'Droid' Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+	
+	
+	
+	
+#greenBtn {
+	float:right;
+	padding:5px;
+	color:#000;
+    text-shadow: 0 1px 0 white;
+	padding:5px;
+	border-radius:5px;
+  	background: -webkit-linear-gradient(top, #aee800, #8fbe00);
+  	background: -moz-linear-gradient(top, #aee800, #8fbe00);
+	text-align:center;
+	}
+	
+#greenBtn:hover {
+	float:right;
+	color:#000;
+	border-radius:7px;
+    text-shadow: 0 -1px 0 white;
+	text-align:center;
+	padding:5px;
+  	background: -webkit-linear-gradient(top, #8fbe00,#aee800);
+  	background: -moz-linear-gradient(top, #8fbe00,#aee800);
+	cursor:pointer;
+	}
+
+
+ .Btn {
+	padding:5px;
+	margin:10px;
+	position:relative;
+	color:#FFF;
+	 }
+	 
+.productBox {
+	width: 125px;
+	height: 125px;
+	padding: 5px;
+	background: white;
+	border: 1px solid #CCC;
+	box-shadow: 0px 0px 10px 1px #000;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+}
+.BigProductBox {
+	width: 260px;
+	padding: 5px;
+	background: white;
+	border: 1px solid #CCC;
+	box-shadow: 0px 0px 10px 1px #000;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+}
+.SmallProductBox {
+	width: 40px;
+	padding: 5px;
+	background: white;
+	border: 1px solid #CCC;
+	
+}
+
+
+.strike {
+	text-decoration: line-through;
+}
+	 
+#middle {
+	
+	float:none;
+	
+	}
+	
+#contents {
+	color : #333;
+	margin:20px auto;
+	}
+
+	
+
+	
+
+.stepBox {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	background-color:#A9EF05; 
+  	background: -webkit-linear-gradient(top, #BDFB2F, #D9F88F);
+  	background: -moz-linear-gradient(top, #BDFB2F, #D9F88F);
+	border-radius:0px 40px 40px 0px;
+	margin:10px 10px; 
+	padding:5px;
+}
+
+.selectStep {
+	box-shadow: 0px 0px 10px #000; 
+	background-color:#A9EF05; 
+  	background: -webkit-linear-gradient(top, #8fbe00,#aee800);
+  	background: -moz-linear-gradient(top, #8fbe00,#aee800);
+	border-radius:0px 40px 40px 0px;	
+	margin:10px 10px; 
+	padding:5px;
+}
+
+
+#productImageList {
+	margin: 10px 0px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 11px 7px;
+	box-shadow: 0px 0px 57px -13px black;
+	border-radius:10px 0px 10px 0px;
+}
+#productImageList a {
+	padding:5px 2px;
+}
+
+
+input , textarea{
+	width:260px;
+	position: relative;
+	color:#000;
+	border-color:#696969;
+	outline: none;
+	border-radius:7px 0px 7px 0px;
+	padding:5px;
+  	background: -webkit-linear-gradient(top, #EEE,#FFF);
+  	background: -moz-linear-gradient(top, #EEE,#FFF);
+	box-shadow:0px 0px 3px  #000;
+        -webkit-transition: .1s all ease-in-out;
+}
+
+input:focus {
+	color:#000;
+	border-color:#696969;
+	outline: none;
+  	background: -webkit-linear-gradient(top, #FFF,#EEE);
+  	background: -moz-linear-gradient(top, #FFF,#EEE);
+	font-family:'Droid';
+	box-shadow:0px 0px 7px  #000;
+        -webkit-transition: .1s all ease-in-out;
+}
+
+textarea:focus {
+	color:#000;
+	border-color:#696969;
+	outline: none;
+  	background: -webkit-linear-gradient(top, #FFF,#EEE);
+  	background: -moz-linear-gradient(top, #FFF,#EEE);
+	font-family:'Droid';
+	box-shadow:0px 0px 7px  #000;
+        -webkit-transition: .1s all ease-in-out;
+	
+}
+textarea{
+	font-family:'Droid';
+	
+}
+
+select {
+	width:170px;
+	color:#000;
+	border-color:#696969;
+	outline: none;
+	border-radius:7px 0px 7px 0px;
+	padding:5px;
+	box-shadow:0px 0px 3px  #000;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+select:focus {
+	color:#000;
+	border-color:#696969;
+	outline: none;
+	border-radius:7px 0px 7px 0px;
+	padding:5px;
+	box-shadow:0px 0px 5px  #000;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+
+.greenBtn {
+	padding:5px;
+	color:#000;
+    text-shadow: 0 1px 0 white;
+	padding:5px;
+	border-radius:5px;
+  	background: -webkit-linear-gradient(top, #aee800, #8fbe00);
+  	background: -moz-linear-gradient(top, #aee800, #8fbe00);
+	text-align:center;
+	}
+	
+.greenBtn:hover {
+	color:#000;
+	border-radius:7px;
+    text-shadow: 0 -1px 0 white;
+	text-align:center;
+	padding:5px;
+  	background: -webkit-linear-gradient(top, #8fbe00,#aee800);
+  	background: -moz-linear-gradient(top, #8fbe00,#aee800);
+	cursor:pointer;
+	}
+	
+
+/*Product css stylesheet*/
+
+/* CSS Document */
+
+#productImages img {
+	margin:3px;
+	}
+#productImages  {
+	float:right;
+	}
+
+	
+#buy {
+	margin-top:7px;
+	margin-bottom:15px;
+	float:right;
+	padding:5px;
+	color:#000;
+    text-shadow: 0 1px 0 white;
+	padding:10px;
+	border-radius:5px;
+  	background: -webkit-linear-gradient(top, #aee800, #8fbe00);
+  	background: -moz-linear-gradient(top, #aee800, #8fbe00);
+	text-align:center;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+
+	}
+#buy:hover {
+	float:right;
+	color:#000;
+	border-radius:7px;
+    text-shadow: 0 -1px 0 white;
+	text-align:center;
+	padding:10px;
+  	background: -webkit-linear-gradient(top, #8fbe00,#aee800);
+  	background: -moz-linear-gradient(top, #8fbe00,#aee800);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	}
+	
+#descripTable, tr,td {
+	padding:5px;
+	margin:2px 0px;
+}
+	
+#descripTable tr:nth-child(odd){
+	background:#CCC;
+}
+	
+	
+.ProductPageHeading {
+
+	margin-bottom:10px;
+	padding:10px 0px;
+	
+}
+	
+.ProductPageHeading  h2{
+	font: 'Droid' Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	
+}
+
+	
+.ProductPageHeading h6:hover {
+	color:#8ebd00;
+}
+.ProductPageHeading h2:hover {
+	color:#333;
+	text-decoration:underline;
+}
+
+.bold {
+	font-weight:bold;
+}
+.underlined {
+	text-decoration:underline;
+}
+.center {
+	text-align:center;
+}
+
+.stepTable {
+    
+	
+}
+
+input[type='radio'] {
+	background: -webkit-linear-gradient(#fafafa, #dcdcdc);
+  border-radius: 100%;
+  border: 1px solid #a0a0a0;
+  display: inline-block;
+  height: 15px;
+  margin-bottom: 0;
+  position: relative;
+  top: 3px;
+  vertical-align: baseline;
+  width: 15px;
+}
+
+#step1Feedback {
+    margin:0px auto 20px auto;
+    padding:30px;
+    background-color: #EEE;
+    font-size: 17px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: inset 0px 0px 17px #000;
+    text-shadow: 1px 1px 1px #FFF;
+    display: none;
+}
+
+#step2Feedback {
+    margin:0px auto 20px auto;
+    padding:30px;
+    background-color: #EEE;
+    font-size: 17px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: inset 0px 0px 17px #000;
+    text-shadow: 1px 1px 1px #FFF;
+    display: none;
+}
+
+#step2Feedback1 {
+    margin:0px auto 20px auto;
+    padding:30px;
+    background-color: #EEE;
+    font-size: 17px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: inset 0px 0px 17px #000;
+    text-shadow: 1px 1px 1px #FFF;
+    display: none;
+}
+
+.lightRed {
+    color:lightcoral;
+}
+
+.needHRule {
+    border-bottom:7px solid #888; 
+    margin:7px; 
+}
+
+#whiteBox {
+	margin-top: 15px;
+	background: #E2E2E2;
+	margin-bottom: 17px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+	border-radius:7px;
+	background-color: white;
+	color:#333;
+}
+
+.productListing a img {
+    width: 75px;
+    padding :5px;
+    margin:10px;
+    border-radius:3px;
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+#targetPrev {
+	padding:5px;
+	border:1px solid #CCC;
+	background:#EEE;
+}
+.thinBox {
+    width: 75px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #CCC;
+}
+	
+
+.searchBox {
+	margin:5px 0px;
+	position:relative;
+	border-radius:7px;
+	outline:none;
+	width:320px;
+	box-shadow:0px 0px 7px  #000;
+	height:20px;
+	}
+.searchBox:focus {
+	margin:5px 0px;
+	position:relative;
+	border-radius:7px;
+	outline:none;
+	width:320px;
+	box-shadow:0px 0px 7px  #000;
+	height:20px;
+	}
+
+.searchBox:active {
+	margin:5px 0px;
+	position:relative;
+	border-radius:7px;
+	outline:none;
+	width:320px;
+	box-shadow:0px 0px 7px  #000;
+	height:20px;
+	}

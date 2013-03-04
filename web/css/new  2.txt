@@ -1,0 +1,50 @@
+
+
+
+BSOD Appears at the time of conflict of hardware
+
+the kernel portion is the one to comm. to HAW
+
+Shell
+
+Kernel
+
+the operating system needs to be coonected to HAW
+ 
+ So when we install the driver the HAW is updated
+ 
+hardware abstraction layers contains the drivers
+		the driver can be used to commpunicate with the  os
+ ^
+HAW
+on top of CPU
+conn. to RAM Video USB hard Drives etc
+
+
+
+
+-----------------------
+program is a set of intructions that tells the app what to do
+
+a driver is a program
+a software is a program
+
+
+
+moz int ex 
+corel draw
+photoshop		--		 		Applications designed to perform specific task
+opera etc
+google chrome antiviruses
+
+
+programs
+|_drivers
+|_Applications
+|_operating system
+
+
+////////////
+Complexity breeds Faults
+Making complex software = handling faults
+////////////

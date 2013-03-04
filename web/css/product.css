@@ -1,0 +1,57 @@
+/* CSS Document */
+
+#productImages img {
+	margin:3px;
+	}
+#productImages  {
+	float:right;
+	}
+
+	
+#buy {
+	margin-top:15px;
+	float:right;
+	padding:5px;
+	color:#000;
+    text-shadow: 0 1px 0 white;
+	padding:10px;
+	border-radius:5px;
+  	background: -webkit-linear-gradient(top, #aee800, #8fbe00);
+  	background: -moz-linear-gradient(top, #aee800, #8fbe00);
+	text-align:center;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+
+	}
+#buy:hover {
+	float:right;
+	color:#000;
+	border-radius:7px;
+        text-shadow: 0 -1px 0 white;
+	text-align:center;
+	padding:10px;
+  	background: -webkit-linear-gradient(top, #8fbe00,#aee800);
+  	background: -moz-linear-gradient(top, #8fbe00,#aee800);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	}
+	
+#descripTable, tr,td {
+	padding:5px;
+	margin:2px 0px;
+}
+	
+#descripTable  {
+	
+}
+	
+#descripTable {
+	
+}
+
+#descripTable tr:nth-child(odd){
+	background:#CCC;
+}
+	
+	
+
