@@ -18,7 +18,7 @@
         <div id="LoginBox" class="grid_16">
 
             <div class="grid_6" id = "loginForm">
-                <form method="post" action="loginServlet"  name="login">
+                <form autocomplete="false" method="post" action="loginServlet"  name="login">
                     <table>
                         <tr>
                             <td colspan="2">
@@ -32,7 +32,7 @@
                                 <label>Email</label>
                             </td>
                             <td>
-                                <label><input type="text" name="email" placeholder="john_lee@xyz.com" /><br/></label>
+                                <label><input type="email" name="email" placeholder="john_lee@xyz.com" required/><br/></label>
                             </td>
                         </tr>
                         <tr>
@@ -40,7 +40,7 @@
                                 <label>Password</label>
                             </td>
                             <td>
-                                <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>
+                                <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
                             </td>
                         </tr><tr>
                             <td>
@@ -55,7 +55,7 @@
             </div>
 
             <div class="grid_6 push_2" id = "RegisterForm">
-                <form method="POST" action="register" name="registerServlet">
+                <form autocomplete="false" method="POST" action="register" name="registerServlet">
                     <table>
                         <tr>
                             <td colspan="2">
@@ -70,7 +70,7 @@
                                 <label>Email</label>
                             </td>
                             <td>
-                                <label><input type="text" name="emailReg" placeholder="john_lee@xyz.com" /><br/></label>
+                                <label><input type="email" name="emailReg" placeholder="john_lee@xyz.com" required/><br/></label>
                             </td>
                         </tr>
                         <tr>
@@ -78,7 +78,7 @@
                                 <label>Password</label>
                             </td>
                             <td>
-                                <input type="password" name="passReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>
+                                <input type="password" name="passReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
                             </td>
                         </tr>
                         <tr>
@@ -86,7 +86,7 @@
                                 <label>Password Again</label>
                             </td>
                             <td>
-                                <input type="password" name="passAgainReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>
+                                <input type="password" name="passAgainReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
                             </td>
                         </tr>
                         <!--	<tr>

@@ -108,15 +108,7 @@
         <jsp:include page="includesPage/_facebookJoin.jsp"></jsp:include>
 
         <div class="container_16">
-            <div class="grid_13 push_3" id="whiteBox">
-                <div  class="grid_13">
-                    <h1  style ="text-align: center; padding: 10px 0px 0px 0px;">Hello <%= printName %></h1>  
-                    <p  style ="text-align: center;"> 
-                       Enter in the personal information for your Account to have quick checkouts during any transaction 
-                    </p>
-                </div>
-            </div>
-                <div id="leftside" class="grid_3">
+            <div id="leftside" class="grid_3">
                     <ul id="leftsideNav">
                         <li><a id="userInfo"><strong>User Profile</strong></a></li>
                         
@@ -125,6 +117,15 @@
                         <li><a id="Settings">Settings</a></li>
                     </ul>
                 </div>
+            <div class="grid_13 push_3" id="whiteBox">
+                <div  class="grid_13">
+                    <h1  style ="text-align: center; padding: 10px 0px 0px 0px;">Hello <%= printName %></h1>  
+                    <p  style ="text-align: center;"> 
+                       Enter in the personal information for your Account to have quick checkouts during any transaction 
+                    </p>
+                </div>
+            </div>
+                
             
                 <div id="whiteBox" class="grid_13 push_3">
                     
@@ -304,14 +305,14 @@ WHERE o.`user_id` =4
                                 Name
                             </div>
                             <div class="grid_5">
-                                <input type="text" name="username" />
+                                <input type="text" name="username" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
                                 Gender
                             </div>
                             <div class="grid_5">
-                                <select name="gender">
+                                <select name="gender" required>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                 </select>
@@ -321,14 +322,14 @@ WHERE o.`user_id` =4
                                 Mobile No
                             </div>
                             <div class="grid_5">
-                                <input type="text" name="mobileNum" />
+                                <input type="text" name="mobileNum" maxlength="10" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
                                 Address
                             </div>
                             <div class="grid_5">
-                                <textarea name="address"></textarea>
+                                <textarea name="address" required></textarea>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
@@ -348,14 +349,14 @@ WHERE o.`user_id` =4
                                 Name
                             </div>
                             <div class="grid_5">
-                                <input type="text" name="username" value="<%= User.getUsername()%>"/>
+                                <input type="text" name="username" value="<%= User.getUsername()%>" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
                                 Gender
                             </div>
                             <div class="grid_5">
-                                <select name="gender">
+                                <select name="gender" required>
 
                                     <%
                                         if (User.getGender().equals("male")) {
@@ -383,7 +384,7 @@ WHERE o.`user_id` =4
                                 Address
                             </div>
                             <div class="grid_5">
-                                <textarea name="address"><%= User.getAddress()%></textarea>
+                                <textarea name="address" required><%= User.getAddress()%></textarea>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">

@@ -72,7 +72,7 @@
                             Name
                         </div>
                         <div class="grid_5">
-                            <input type="text" class="name"  name="name" />
+                            <input type="text" class="name"  name="name" required/>
                         </div>
                         <div class="clear"></div><br/>
                         <div class="grid_2">
@@ -85,7 +85,7 @@
                             Address
                         </div>
                         <div class="grid_5">
-                            <textarea class="address"  name="address"></textarea>    
+                            <textarea class="address"  name="address" required></textarea>    
                         </div>
                         <div class="grid_2">
                             City

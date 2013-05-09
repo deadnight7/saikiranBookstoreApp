@@ -211,7 +211,7 @@
                         <h3>Product Price : Rs. </h3>
                     </div>
                     <div class="grid_5">
-                        <input id="price" type="text" name= "price" placeholder="eg.Rs 7899/-" required/><br/>
+                        <input id="price" type="number" name= "price" min="1" placeholder="eg.Rs 7899/-" required/><br/>
                        
                     </div>
                     <div class="clear"></div><br/>
@@ -219,7 +219,7 @@
                         <h3>Enter Quantity in Units</h3>
                     </div>
                     <div class="grid_5">
-                        <input id="productQty" type="text" name= "productQty"  placeholder="Quantity" required/><br/>
+                        <input id="productQty" type="number" min="1" name= "productQty"  placeholder="Quantity" required/><br/>
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_4">
