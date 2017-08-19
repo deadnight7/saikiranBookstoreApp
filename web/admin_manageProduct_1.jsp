@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_manageProduct
-    Created on : 26 Nov, 2012, 7:48:56 PM
     Author     : chirag
 --%>
 

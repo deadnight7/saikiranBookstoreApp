@@ -1,6 +1,5 @@
 <%-- 
     Document   : gCharts_pieDiagram1
-    Created on : 2 Dec, 2012, 12:01:13 AM
     Author     : chirag
 --%>
 

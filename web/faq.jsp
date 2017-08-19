@@ -1,6 +1,5 @@
 <%-- 
     Document   : faq
-    Created on : 18 Dec, 2012, 9:22:01 AM
     Author     : chirag
 --%>
 

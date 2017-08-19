@@ -1,6 +1,5 @@
 <%-- 
     Document   : gCharts_pieDiagram1
-    Created on : 2 Dec, 2012, 12:01:13 AM
     Author     : chirag
 --%>
 
@@ -45,7 +44,7 @@
                 Select Year
                 <select name="year" class="graphLoad" id="year">
                     <%
-                        for (int i =12 ;i<35;i++){
+                        for (int i =16 ;i<35;i++){
                             %>
                             <option value="20<%=i%>">20<%=i%></option>
                     <%

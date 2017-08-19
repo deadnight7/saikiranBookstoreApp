@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_deleteProduct
-    Created on : 28 Nov, 2012, 9:43:57 PM
     Author     : chirag
 --%>
 <!DOCTYPE html>

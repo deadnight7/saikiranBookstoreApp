@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_approvedOrders
-    Created on : Nov 24, 2012, 2:07:17 PM
     Author     : jDeveloper
 --%>
 

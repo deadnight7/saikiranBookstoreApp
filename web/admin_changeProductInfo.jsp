@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_changeProductInfo
-    Created on : 5 Dec, 2012, 8:53:35 PM
     Author     : chirag
 --%>
 

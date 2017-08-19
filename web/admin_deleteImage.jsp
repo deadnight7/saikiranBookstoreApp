@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_deleteImage
-    Created on : 27 Nov, 2012, 10:45:41 PM
     Author     : chirag
 --%>
 

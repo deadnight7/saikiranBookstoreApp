@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_settings
-    Created on : 25 Nov, 2012, 5:01:42 PM
     Author     : chirag
 --%>
 

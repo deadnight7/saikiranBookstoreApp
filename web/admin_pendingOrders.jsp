@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_pendingOrders
-    Created on : Nov 24, 2012, 2:07:38 PM
     Author     : jDeveloper
 --%>
 

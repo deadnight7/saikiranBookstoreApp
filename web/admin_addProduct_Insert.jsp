@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_addProduct_Insert
-    Created on : 30 Nov, 2012, 11:35:07 PM
     Author     : chirag
 --%>
 

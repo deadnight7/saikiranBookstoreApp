@@ -1,6 +1,5 @@
 <%-- 
     Document   : showMyBill
-    Created on : 21 Nov, 2012, 10:13:42 PM
     Author     : chirag
 --%>
 <%@page import="java.util.ArrayList"%>

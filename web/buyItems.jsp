@@ -1,6 +1,5 @@
 <%-- 
     Document   : buyItems
-    Created on : 5 Nov, 2012, 12:23:58 PM
     Author     : chirag
 --%>
 
