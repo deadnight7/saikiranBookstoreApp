@@ -19,6 +19,10 @@ http://www.4shared.com/office/AEf2a-PW/Binder2.html
 	* Top sold products
 	* The monthly sales revenue and purchases being made by the store
 	
+### Video Guides  
+Installation - https://www.youtube.com/watch?v=FnuKUfAiHUM&t=229s
+Project Demo - https://www.youtube.com/watch?v=XeTGQXrDYjE&t=7s
+
 ### Guide to installing saikiranBookStoreApp into your machine
 Prerequisites - Must be having on the client computer before installation
 
