@@ -5,7 +5,6 @@
 
 Follow the documentation and the blackbook here
 http://www.4shared.com/office/AEf2a-PW/Binder2.html
-###### Skip over to Pg. 62 for the visual usage.
 
 By Chirag Pandit - 
 You can reach me out on 
