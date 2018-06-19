@@ -1,12 +1,16 @@
 # Saikiran Bookstores App
 ##### An Online Retail Management and Custommer Order Processing System
-##### -By Chirag Pandit https://www.facebook.com/chirag.pandit07
 
 [![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=MzZoN09JWVk2Y2Y4OHFDT1FYaFdKeFdCMXRTcjdKdWhwaXB3Q3hMOUxVYz0tLVBMcmVIWFpoTHZkMWRERllhMGpvaHc9PQ==--4d3885b8ec10d38737480d9c3677c32c54968d22)](https://www.browserstack.com/automate/public-build/MzZoN09JWVk2Y2Y4OHFDT1FYaFdKeFdCMXRTcjdKdWhwaXB3Q3hMOUxVYz0tLVBMcmVIWFpoTHZkMWRERllhMGpvaHc9PQ==--4d3885b8ec10d38737480d9c3677c32c54968d22)
 
 Follow the documentation and the blackbook here
 http://www.4shared.com/office/AEf2a-PW/Binder2.html
 ###### Skip over to Pg. 62 for the visual usage.
+
+By Chirag Pandit - 
+Yuo can reach me out on 
+##### Facebook - https://www.facebook.com/chirag.pandit07
+##### LinkedIn - https://www.linkedin.com/in/chirag-pandit-15193638/
 
 ### Video Guides  
 
