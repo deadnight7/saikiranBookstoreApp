@@ -44,5 +44,5 @@ Prerequisites - Must be having on the client computer before installation
 ### Testing Partners
 ![Testing partners Browserstack](/web/images/logo/Browserstack-logo.svg)
 
-### The project is developed, distributed and is made available for free under MIT Licence,
-### I will not be responsible for any loss or damage whatsoever caused resulting into usage of this product, to whomsoever it may concern.
+### Licence
+Project is [MIT licensed](./LICENSE).
