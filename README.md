@@ -42,7 +42,7 @@ Prerequisites - Must be having on the client computer before installation
 * Done
 
 ### Testing Partners
-![alt tag](/web/images/logo/Browserstack-logo@2x.png)
+![](/web/images/logo/Browserstack-logo.svg)
 ![alt tag](http://www.browserstack.com/automate/?utm_campaign=open-source-sponsor&utm_source=seleniumorg&utm_medium=referral)
 
 ### The project is developed, distributed and is made available for free under MIT Licence,
