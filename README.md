@@ -41,6 +41,8 @@ Prerequisites - Must be having on the client computer before installation
 * Custommize the products and users as per your requirement
 * Done
 
+### Testing Partners
+![Browserstack Opensource Initiative](http://www.browserstack.com/automate/?utm_campaign=open-source-sponsor&utm_source=seleniumorg&utm_medium=referral)
 
-### The project is developed, distributed and is made available for free,
+### The project is developed, distributed and is made available for free under MIT Licence,
 ### I will not be responsible for any loss or damage whatsoever caused resulting into usage of this product, to whomsoever it may concern.
