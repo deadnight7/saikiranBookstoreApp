@@ -8,9 +8,9 @@ http://www.4shared.com/office/AEf2a-PW/Binder2.html
 ###### Skip over to Pg. 62 for the visual usage.
 
 By Chirag Pandit - 
-Yuo can reach me out on 
-##### Facebook - https://www.facebook.com/chirag.pandit07
-##### LinkedIn - https://www.linkedin.com/in/chirag-pandit-15193638/
+You can reach me out on 
+### Facebook - https://www.facebook.com/chirag.pandit07
+### LinkedIn - https://www.linkedin.com/in/chirag-pandit-15193638/
 
 ### Video Guides  
 
