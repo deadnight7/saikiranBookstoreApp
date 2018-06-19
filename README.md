@@ -6,6 +6,11 @@ Follow the documentation and the blackbook here
 http://www.4shared.com/office/AEf2a-PW/Binder2.html
 ###### Skip over to Pg. 62 for the visual usage.
 
+### Video Guides  
+
+* Installation - https://www.youtube.com/watch?v=FnuKUfAiHUM&t=229s
+* Project Demo - https://www.youtube.com/watch?v=XeTGQXrDYjE&t=7s
+
 ### Features 
 * A full fledged online retail website system using java technologies
 * Frontend supported with HTML5 and CSS3 
@@ -19,11 +24,6 @@ http://www.4shared.com/office/AEf2a-PW/Binder2.html
 	* Top sold products
 	* The monthly sales revenue and purchases being made by the store
 	
-### Video Guides  
-
-* Installation - https://www.youtube.com/watch?v=FnuKUfAiHUM&t=229s
-* Project Demo - https://www.youtube.com/watch?v=XeTGQXrDYjE&t=7s
-
 
 ### Guide to installing saikiranBookStoreApp into your machine
 Prerequisites - Must be having on the client computer before installation
