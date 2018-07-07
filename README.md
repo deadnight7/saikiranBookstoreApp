@@ -53,7 +53,7 @@ Prerequisites - Must be having on the client computer before installation
 * Done
 
 ### Testing Partners
-![Testing partners Browserstack](/web/images/logo/Browserstack-logo.svg =250x35)
+![Testing partners Browserstack](/web/images/logo/Browserstack-logo@2x (1).png)
 ![Testing partners SauceLabs](/web/images/logo/Sauce-Labs_Horiz_Red-Grey_RGB_250x35.png)
 
 ### Licence
