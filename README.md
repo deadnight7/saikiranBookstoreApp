@@ -55,7 +55,6 @@ Prerequisites - Must be having on the client computer before installation
 ### Testing Partners
 
 ![Testing partners Browserstack](/web/images/logo/Browserstack-logo1.png)
-![Testing partners SauceLabs](/web/images/logo/Sauce-Labs_Horiz_Red-Grey_RGB_250x35.png)
 
 ### Licence
 Project is [MIT licensed](./LICENSE).
