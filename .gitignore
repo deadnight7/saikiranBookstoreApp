@@ -1,1 +1,8 @@
 /build/
+.idea/*
+.target/classes
+.target/*/*
+.target/classes
+.tcp:
+target
+target
