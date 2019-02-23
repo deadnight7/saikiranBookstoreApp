@@ -1,9 +1,6 @@
 package com.saikiranBookstoreApp.bookstore_web.Entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 public class SubCategory {
@@ -11,6 +8,8 @@ public class SubCategory {
     @Id
     @GeneratedValue
     public long subCategoryId;
+
+    @Column
     public String subCategoryName;
 
     @ManyToOne

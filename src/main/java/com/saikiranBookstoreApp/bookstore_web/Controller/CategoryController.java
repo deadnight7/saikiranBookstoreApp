@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @Component
-@RequestMapping("/category")
+@RequestMapping("/api/category")
 public class CategoryController {
 
     CategoryRepository categoryRepository;

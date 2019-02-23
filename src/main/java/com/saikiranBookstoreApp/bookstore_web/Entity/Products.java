@@ -5,10 +5,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 @Entity
@@ -21,8 +18,11 @@ public class Products {
     @Id
     public long productId;
 
+    @Column
     @NonNull
     public String productName;
+
+    @Column
     public String productDesc;
 
     @NonNull
