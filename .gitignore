@@ -6,3 +6,6 @@
 .tcp:
 target
 target
+*.iml
+
+bookstore_web.iml
