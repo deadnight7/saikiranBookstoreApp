@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class SecurityConfiguration{
-    
+
 }
 //@Configuration
 //@EnableWebSecurity
