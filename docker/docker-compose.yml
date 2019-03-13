@@ -1,0 +1,25 @@
+version: "3"
+services:
+  database:
+    image: mysql:5.6
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - ./data:/var/lib/mysql
+  myadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - database:db
+    ports:
+      - 7577:80
+  tomcat:
+    image: tomcat:7.0.93-jre7 
+    ports:
+      - 7570:8080
+    volumes:
+      - ../dist:/usr/local/tomcat/webapps/
+      - ./tomcat_logs:/usr/local/tomcat/logs
+volumes:
+  webapps:

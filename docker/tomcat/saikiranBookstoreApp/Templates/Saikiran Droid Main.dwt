@@ -1,0 +1,508 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>SaiKiran BookStores</title>
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="../images/logo/ico.ico"/>
+
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/text.css">
+<link rel="stylesheet" type="text/css" href="../css/960_16.css">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<link rel="stylesheet" href="../css/slider.css"  />
+
+
+	<script type="text/javascript" src="../js/jquery.js"/></script>
+
+    <script type="text/javascript" src="../js/slider.js"/></script>
+
+    <script type="text/javascript" >
+
+    // This is the script for the banner slider
+
+            $(document).ready(function() {
+
+                $('#slider').s3Slider({
+
+                    timeOut: 6000
+
+                });
+
+            });
+
+            function MM_preloadImages() { //v3.0
+
+              var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+                var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+                if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+            }
+
+            function MM_findObj(n, d) { //v4.01
+
+              var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+                d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+              if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+              for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+              if(!x && d.getElementById) x=d.getElementById(n); return x;
+
+            }
+
+            function MM_swapImage() { //v3.0
+
+              var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+               if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+            }
+
+    </script>
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+</head>
+<body>
+
+	
+   <div id = "topWrapper">
+        <div class="container_16">
+                <div class="grid_16">
+                        <div id="logo" class="grid_6"> <a href="../index.html"><img src="../images/logo/icon.png" /></a>
+                        </div>
+                        <div class="grid_6" id="top">
+                            <ul>
+                                <li id="greenBtn" class ="Btn">Join Now!!</li>
+                                <li class ="Btn">Sign In</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+    </div>
+    
+    
+    
+   <div id = "topSearch">
+        <div class="container_16">
+                <div class="grid_16">
+                        <div class="grid_6">
+                        	<input id="searchBox" class="searchBox"  name="searchBox" placeholder="Search in a Book ..." />
+                        </div>
+                        <div class="grid_7" id="topNav">
+                            <ul>
+                            	<li><a href="../index.html">HOME</a></li>
+                            	<li><a href="../products.html">PRODUCTS</a></li>
+                            	<li><a href="../contact.html">CONTACT</a></li>
+                            	<li><a href="../faq.html">FAQ</a></li>
+                            	<li><a href="../meet.html">MEET US</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+    </div>
+    
+    
+    
+   <div id = "topThird">
+        <div class="container_16">
+                <div class="grid_16">
+                        <div class="grid_9">
+                        	<p><span>Saikiran</span> is one of the best places to have your <span>books</span> for any material We are the only one to have your <span>thoughts</span> at the right place... For More Information Call Us : +91-9004300630</p>
+                        </div>
+                        <div class="grid_6" id="top">
+                               <a href="http://www.facebook.com"> <div id="greenBtn" align="center" class ="Btn">Join the Community on Facebook!!</div></a>
+                        </div>
+                </div>
+            </div>
+    </div>
+    
+    <div id = "banner">
+        <div class="container_16">
+        	
+            <div class="grid_16" id="slider">		
+
+				<ul id="sliderContent">		
+
+		<!-- Duplicate this code for each image -->				
+
+					<li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b1.png" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Fountain Pens...</strong>	
+
+					<br>From the International and Indian markets, we have the variety of the High Class fountain 
+
+                    	pens. Available now for you to get your hands on.
+
+                    </span>
+
+					</li>  
+
+                  	
+
+                    <li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b2.png" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Books, Diaries...</strong>				
+
+                    <br>Text Books, Single Lines, Double Lines, Red 'n Blue Lines, Fullscape Books
+
+                    	Drawing Books, and all the paper you want to write all throughout to learn 
+
+                        Available now at your doorsteps* 
+
+                     
+
+                    </span>
+
+					</li>  
+
+                    
+
+                    <li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b5.png" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Kids Colors...</strong>				
+
+                    <br>Collection of Non-Toxic childrens colors available
+
+                    	Let your child learn the art of painting at an early age 
+
+                        by having his hands on the colors available here... 
+
+                    </span>
+
+					</li>  
+
+                    
+
+                    <li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b7.jpg" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Graphic Novels...</strong>				
+
+                    <br>The most amazing titles that you always wanted to get your hands onn.. 
+
+                    	Now you have the opportunity to have them all in your personal library.
+
+                      	International as well as Indian titles of many authors available
+
+                    </span>
+
+					</li>   
+
+                    
+
+                    <li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b6.png" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Color World...</strong>				
+
+                    <br>A vast variety of different sets of colors including Oil-Pastels,
+
+                    	Pencil Colors, Poster Colors, Acrylic Colors and many more...
+
+                    </span>
+
+					</li>   
+
+                    
+
+                    <li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b4.png" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Children's Titles...</strong>				
+
+                    <br>Comics, DVD's, games that your child loves to play 
+
+                    	live with and have fun, We have it, Almost all certainly. 
+
+                    </span>
+
+					</li>   
+
+                    
+
+                    <li class="sliderImage" style="display: none; ">
+
+                    <img src="../images/banner/b3.PNG" width="900" height="300" /> 
+
+                    <span class="top" style="display: none; ">
+
+                    <strong>Geometry Kits...</strong>				
+
+                    <br>We have the best in engineering toolsets
+
+                    	from varying manufactureres including Apsara, Natraja, 
+
+                        Camlin, Classmate and many more...
+
+                    </span>
+
+					</li>            
+
+           		  <div class="clear sliderImage"></div>  
+
+				</ul>
+
+                	</div>
+            </div>
+    </div>
+    
+    
+    
+  <div class="container_16">
+   <div id = "contents">
+   <!-- LeftSide -->
+   
+        
+        <div id="leftside" class="grid_3">
+        	<div>
+                <ul id="leftsideNav">
+                        <li><a href="#"><strong>Categories</strong></a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Calculators</a></li>
+                        <li><a href="#">Art Supplies</a></li>
+                        <li><a href="#">Office Supplies</a></li>
+                        <li><a href="#">School Supplies</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Movies</a></li>
+                    </ul>
+            </div>
+        	<div class="adv">
+            		<h2><br/>This is The Header of an Advertisement</h2>
+                    <p>We offer Advertisement display here </p>
+            </div>
+            </div>
+                
+            
+        </div>
+		
+   <!-- Middle -->
+   	<div id="middle"class="grid_13">
+    
+    
+    
+    
+             <div class="grid_13" id="productStrip">
+				<a href="http:google.com">
+					<div class="ProductHeading">
+						<div class="grid_7">
+							<h2 class="heading">Top Sellers</h2>
+						</div>
+						<div id="viewMore" class="grid_3">
+							<h6 class="blue">View More</h6>
+						</div>
+					</div>
+				</a>
+				
+				
+				<div class="clear"></div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com">
+                    <img src="../images/crap imgs/027288-glossy-black-icon-culture-book3-open.png" /></a>
+                    <p id="info">
+                    <a href="http:www.google.com">
+                    <span class="blue">This is the Damm PNG File with the background in HTML As white</span></a>
+                    <br/>By Chirag Pandit So what do u think has the author has suggested your prices as<br/>
+                    <span class="red">Rs. 1000</span>
+                    <p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+            </div>
+			
+			
+             <div class="grid_13" id="productStrip">
+				<a href="http:google.com">
+					<div class="ProductHeading">
+						<div class="grid_7">
+							<h2 class="heading">Top Bestsellers Books</h2>
+						</div>
+						<div id="viewMore" class="grid_3">
+							<h6 class="blue">View More</h6>
+						</div>
+					</div>
+				</a>
+				
+				
+				<div class="clear"></div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+            </div>
+			
+			
+            
+			
+             <div class="grid_13" id="productStrip">
+				<a href="http:google.com">
+					<div class="ProductHeading">
+						<div class="grid_7">
+							<h2 class="heading">Top Most Viewed Products</h2>
+						</div>
+						<div id="viewMore" class="grid_3">
+							<h6 class="blue">View More</h6>
+						</div>
+					</div>
+				</a>
+				<div class="clear"></div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+            </div>
+			
+             <div class="grid_13" id="productStrip">
+				<a href="http:google.com">
+					<div class="ProductHeading">
+						<div class="grid_7">
+							<h2 class="heading">Deal Breakers</h2>
+						</div>
+						<div id="viewMore" class="grid_3">
+							<h6 class="blue">View More</h6>
+						</div>
+					</div>
+				</a>
+				<div class="clear"></div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+                <div id="productList" class="grid_3">
+                    <a href="http:www.google.com"><img src="../images/crap imgs/bg-linen.jpg" /></a>
+                    <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>By Author Name<br/><span class="red">Rs. 1000</span><p>
+			   </div>
+            </div>
+    
+    
+    
+    
+    
+    </div>
+            
+			
+			
+            <!--The Middle Content Div Closing -->
+           </div>
+            <!--The Center Content Div Closing -->
+         </div>
+         
+            
+        
+    <div id = "footer">
+        <div class="container_16">
+        
+     <div class="grid_16" >
+        <div class="grid_3">
+        	<ul>
+            	<li><strong>Help</strong></li>
+            	<li><a href="../faq.html">Payments</a></li>
+            	<li><a href="../faq.html">Shipping</a></li>
+            	<li><a href="../faq.html">Cancellation &amp; Returns</a></li>
+            </ul>
+        </div>
+        <div class="grid_3">
+        	<ul>
+            	<li><strong>SaiKiran</strong></li>
+            	<li><a href="../contact.html">Contact Us</a></li>
+            	<li><a href="../about.html">About Us</a></li>
+            	<li><a href="../faq.html">Careers</a></li>
+            </ul>
+        </div>
+        <div class="grid_3">
+        	<ul>
+            	<li><strong>Misc</strong></li>
+            	<li><a href="../index.html">Home</a></li>
+            	<li><a href="../faq.html">Affiliate</a></li>
+            	<li><a href="http://www.facebook.html">Facebook</a></li>
+            </ul>
+        </div>
+
+        <div class="grid_5">
+        	<br/><h2>Safe and Secure Shopping</h2><p>
+All major credit and debit cards are accepted. We also accept payments by Internet Banking, Cash on Delivery and Equated Monthly Installments(EMI).</p>
+        	
+        </div>
+        
+    </div>
+   
+    <div id="clear"/>
+            <div class="grid_16">	
+				<p>Copyrights &copy; 2012 SaiKiran BookStores - The online library</p>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
