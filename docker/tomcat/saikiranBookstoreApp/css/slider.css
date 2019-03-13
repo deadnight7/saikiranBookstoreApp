@@ -1,0 +1,58 @@
+/* Color Legend */
+
+#slider {
+	clear:both;
+	margin-top:15px;
+    width: 960px; /* important to be same as image width */
+    height: 300px; /* important to be same as image height */
+    position: relative; /* important */
+	overflow: hidden; /* important */
+	text-align:left;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#sliderContent {
+    width: 900px; /* important to be same as image width or wider */
+    position: absolute;
+	top: 0;
+	margin-left: 0;
+}
+
+.sliderImage {
+    float: left;
+    position: relative;
+	display: none;
+}
+
+.sliderImage span {
+    position: absolute;
+    padding: 10px;
+    width: 210px;  /* This is the width of the caption box  */
+	height:300px; /* This is the height of the caption box  */
+    background-color: #000;  /* This sets the background color of the semi transparent box */
+    /* If you do not want the transparent content field to appear, change all opacity values to 0 */
+	filter: alpha(opacity=70); -moz-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:150%;
+    color: #fff; /* This is the color of the text in the caption box */
+    display: none;
+}
+
+.sliderImage span strong {
+	color:#CCC;  /* This is the color of the title text in the caption box */
+	font-size: 22px; /* This is the font size of the title text in the caption box */
+	line-height:300%;
+	text-align: center;
+	}
+
+.clear { clear: both; }
+
+
+.top { top: 0; left: 650px; }  /* This sets the upper left corner of the caption box */
+
+.bottom { bottom: 0; left: 0; } /* This sets the lower left corner of the caption box */
+
+#slider ul 		{ list-style-type: none;}
+#slider ul li 	{ margin-left:0px; }

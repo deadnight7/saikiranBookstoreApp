@@ -1,0 +1,452 @@
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.125-linuxkit
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-b01
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Mar 13, 2019 5:11:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Mar 13, 2019 5:11:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 13, 2019 5:11:25 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Mar 13, 2019 5:11:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:11:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:11:25 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1048 ms
+Mar 13, 2019 5:11:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2019 5:11:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 13, 2019 5:11:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war
+Mar 13, 2019 5:11:30 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 13, 2019 5:11:30 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war has finished in 4,790 ms
+Mar 13, 2019 5:11:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:11:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:11:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4972 ms
+Mar 13, 2019 5:14:21 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/saikiranBookstoreApp]
+Mar 13, 2019 5:14:21 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+WARNING: Failed to open JAR [null]
+java.io.FileNotFoundException: /usr/local/tomcat/webapps/saikiranBookstoreApp/WEB-INF/lib/cos.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:221)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:151)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:118)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:221)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3131)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3443)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1505)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1749)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2345)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 13, 2019 5:14:21 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/saikiranBookstoreApp] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Mar 13, 2019 5:14:21 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/saikiranBookstoreApp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+Mar 13, 2019 5:14:41 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war
+Mar 13, 2019 5:14:45 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 13, 2019 5:14:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war has finished in 3,592 ms
+Mar 13, 2019 5:14:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:14:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:14:51 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 13, 2019 5:14:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:14:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:14:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:14:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.125-linuxkit
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-b01
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Mar 13, 2019 5:15:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Mar 13, 2019 5:15:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 13, 2019 5:15:04 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Mar 13, 2019 5:15:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:15:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1007 ms
+Mar 13, 2019 5:15:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2019 5:15:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 13, 2019 5:15:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war
+Mar 13, 2019 5:15:05 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 13, 2019 5:15:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war has finished in 1,525 ms
+Mar 13, 2019 5:15:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:15:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:15:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1683 ms
+Mar 13, 2019 5:16:56 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/saikiranBookstoreApp]
+Mar 13, 2019 5:16:56 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+WARNING: Failed to open JAR [null]
+java.io.FileNotFoundException: /usr/local/tomcat/webapps/saikiranBookstoreApp/WEB-INF/lib/cos.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:221)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:151)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:118)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:221)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3131)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3443)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1505)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1749)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2345)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 13, 2019 5:16:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/saikiranBookstoreApp] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Mar 13, 2019 5:16:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/saikiranBookstoreApp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+Mar 13, 2019 5:17:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:17:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:17:05 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 13, 2019 5:17:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:17:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:17:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:17:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.125-linuxkit
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-b01
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Mar 13, 2019 5:17:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Mar 13, 2019 5:17:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 13, 2019 5:17:37 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Mar 13, 2019 5:17:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:17:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1192 ms
+Mar 13, 2019 5:17:37 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2019 5:17:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 13, 2019 5:17:37 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war
+Mar 13, 2019 5:17:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 13, 2019 5:17:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war has finished in 5,263 ms
+Mar 13, 2019 5:17:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:17:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:17:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5530 ms
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.125-linuxkit
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-b01
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Mar 13, 2019 5:24:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Mar 13, 2019 5:24:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 13, 2019 5:24:27 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Mar 13, 2019 5:24:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:24:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1032 ms
+Mar 13, 2019 5:24:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2019 5:24:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 13, 2019 5:24:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war
+Mar 13, 2019 5:24:32 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 13, 2019 5:24:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war has finished in 5,012 ms
+Mar 13, 2019 5:24:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:24:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:24:33 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5189 ms
+Mar 13, 2019 5:30:33 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/saikiranBookstoreApp]
+Mar 13, 2019 5:30:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/saikiranBookstoreApp] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Mar 13, 2019 5:30:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/saikiranBookstoreApp] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+Mar 13, 2019 5:30:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:30:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:30:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 13, 2019 5:30:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:30:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:30:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:30:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.125-linuxkit
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-b01
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Mar 13, 2019 5:30:51 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Mar 13, 2019 5:30:51 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 13, 2019 5:30:51 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Mar 13, 2019 5:30:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:30:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:30:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1068 ms
+Mar 13, 2019 5:30:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2019 5:30:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 13, 2019 5:30:52 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war
+Mar 13, 2019 5:30:56 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 13, 2019 5:30:56 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/saikiranBookstoreApp.war has finished in 4,819 ms
+Mar 13, 2019 5:30:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 13, 2019 5:30:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 13, 2019 5:30:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4992 ms

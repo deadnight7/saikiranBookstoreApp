@@ -1,0 +1,93 @@
+
+button:not(.custom-appearance),
+input[type='button']:not(.custom-appearance),
+input[type='submit']:not(.custom-appearance) {
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-user-select: none;
+  background: -webkit-linear-gradient(#fafafa, #f4f4f4 40%, #e5e5e5);
+  border: 1px solid #aaa;
+  color: #444;
+  font-size: inherit;
+  margin-bottom: 0;
+  min-width: 4em;
+  padding: 3px 12px;
+}
+
+button:not(.custom-appearance):hover,
+input[type='button']:not(.custom-appearance):hover,
+input[type='submit']:not(.custom-appearance):hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background: #ebebeb -webkit-linear-gradient(#fefefe, #f8f8f8 40%, #e9e9e9);
+  border-color: #999;
+  color: #222;
+}
+
+button:not(.custom-appearance):active,
+input[type='button']:not(.custom-appearance):active,
+input[type='submit']:not(.custom-appearance):active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+  background: #ebebeb -webkit-linear-gradient(#f4f4f4, #efefef 40%, #dcdcdc);
+  color: #333;
+}
+
+button[disabled]:not(.custom-appearance),
+input[type='button'][disabled]:not(.custom-appearance),
+input[type='submit'][disabled]:not(.custom-appearance),
+button[disabled]:not(.custom-appearance):hover,
+input[type='button'][disabled]:not(.custom-appearance):hover,
+input[type='submit'][disabled]:not(.custom-appearance):hover {
+  box-shadow: none;
+  background: -webkit-linear-gradient(#fafafa, #f4f4f4 40%, #e5e5e5);
+  border-color: #aaa;
+  color: #888;
+}
+
+button:not(.custom-appearance):focus,
+input[type='submit']:not(.custom-appearance):focus,
+input[type='text']:not(.custom-appearance):focus,
+select:not(.custom-appearance):focus {
+  box-shadow: inset 0 1px 2px white,
+      0 1px 2px rgba(0, 0, 0, .2),
+      0 0 1px #c0c0c0,
+      0 0 1px #c0c0c0,
+      0 0 1px #c0c0c0;
+  -webkit-transition: border-color 200ms;
+  -moz-transition: border-color 200ms;
+  /* We use border color because it follows the border radius (unlike outline).
+   * This is particularly noticeable on mac. */
+  border-color: rgb(64, 128, 250);
+  outline: none;
+}
+
+/* Search boxes use an outline because it follows the contours of the box. */
+input[type='search']:not(.custom-appearance):focus {
+  outline-color: rgb(64, 128, 250);
+}
+
+/* TODO(jhawkins): Refactor button styling and remove !important here. This is
+ * currently necessary because individual page button element selectors have
+ * higher specificity.
+ */
+.link-button,
+.link-button:focus {
+  box-shadow: none !important;
+  background: transparent none !important;
+  border: none !important;
+  color: rgb(17, 85, 204) !important;
+  cursor: pointer;
+  /* Input elements have -webkit-small-control which overrides the body font.
+   * Resolve this by using 'inherit'. */
+  font-family: inherit;
+  margin: 0;
+  padding: 0 4px !important;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}
+
+.link-button:active {
+  color: rgb(5, 37, 119) !important;
+  text-decoration: underline;
+}
