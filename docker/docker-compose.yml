@@ -17,7 +17,7 @@ services:
   tomcat:
     image: tomcat:7.0.93-jre7 
     ports:
-      - 7570:8080
+      - 80:8080
     volumes:
       - ../dist:/usr/local/tomcat/webapps/
       - ./tomcat_logs:/usr/local/tomcat/logs
