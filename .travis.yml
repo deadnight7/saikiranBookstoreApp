@@ -1,0 +1,21 @@
+sudo: required
+
+language: java
+
+services:
+  - docker
+
+addons:
+  chrome: stable
+
+before_install:
+
+- echo $USER
+
+# get IP Address for remote selenium grid
+- ifconfig
+
+script:
+- cd ./docker/
+- docker-compose up
+- sleep 15m
