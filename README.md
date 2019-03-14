@@ -16,6 +16,15 @@ You can reach me out on
 * Installation - https://www.youtube.com/watch?v=FnuKUfAiHUM&t=229s
 * Project Demo - https://www.youtube.com/watch?v=XeTGQXrDYjE&t=7s
 
+### Update - Mar 2019 - Installing via Docker
+You can now install via docker
+First Install docker on base system
+```
+$git clone project repo
+$cd docker
+$docker-compose up -d
+```
+
 ### Features 
 * A full fledged online retail website system using java technologies
 * Frontend supported with HTML5 and CSS3 
