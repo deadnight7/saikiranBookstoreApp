@@ -25,7 +25,7 @@
 
 ### Update 2019 - Installing via Docker
 You can now install via docker
-1) Install docker / docker-ce on base system
+1) Install docker / docker-ce on base system (Docker Install Guide - https://docs.docker.com/v17.12/install/)
 2) Clone Project Repo
 ```
 $ git clone https://github.com/deadnight7/saikiranBookstoreApp.git
