@@ -3,27 +3,31 @@
 
 ![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=bUJrcGM5VGd4ajRzdHc4a1BFRjRuSTh3QTJEOEpxVWRITHpQTnBkVXpMST0tLXN1eHlWcnhrZzVCSjRmeFpEY29uZ0E9PQ==--493168ce6719b5f9368b52b9ec6292aab2cf4024)
 
-Follow the documentation and the blackbook here
-http://www.4shared.com/office/AEf2a-PW/Binder2.html
+### Update 2019 - Installing via Docker
+You can now install via docker
+1) Install docker / docker-ce on base system
+2) Clone Project Repo
+```
+$ git clone https://github.com/deadnight7/saikiranBookstoreApp.git
+```
+3) Navigate to docker dir and execute docker-compose
+```
+$ cd saikiranBookstoreApp/docker
+$ docker-compose up -d
+```
 
-By Chirag Pandit - 
-You can reach me out on 
-* Facebook - https://www.facebook.com/chirag.pandit07
-* LinkedIn - https://www.linkedin.com/in/chirag-pandit-15193638/
+Docker compose will perform these steps
+- Hosted project on tomcat locally on port :80 (http://localhost/saikiranBookstoreApp)
+- PhpMyadmin will be exposed on port 7577 (User: root, Password: password)
+- MySQL will be exposed on port 3307 (User: root, Password: password)
+*Make sure all respective ports are open and not used by any other applications
+
 
 ### Video Guides  
 
 * Installation - https://www.youtube.com/watch?v=FnuKUfAiHUM&t=229s
 * Project Demo - https://www.youtube.com/watch?v=XeTGQXrDYjE&t=7s
 
-### Update - Installing via Docker
-You can now install via docker
-First Install docker on base system
-```
-$git clone project repo
-$cd docker
-$docker-compose up -d
-```
 
 ### Features 
 * A full fledged online retail website system using java technologies
@@ -60,6 +64,15 @@ Prerequisites - Must be having on the client computer before installation
 * Run your project copy
 * Custommize the products and users as per your requirement
 * Done
+
+## Project Diagrams
+Follow the documentation here
+http://www.4shared.com/office/AEf2a-PW/Binder2.html
+
+By Chirag Pandit - 
+You can reach me out on 
+* Facebook - https://www.facebook.com/chirag.pandit07
+* LinkedIn - https://www.linkedin.com/in/chirag-pandit-15193638/
 
 ### Testing Partners
 
