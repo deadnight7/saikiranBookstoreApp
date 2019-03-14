@@ -3,26 +3,6 @@
 
 ![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=bUJrcGM5VGd4ajRzdHc4a1BFRjRuSTh3QTJEOEpxVWRITHpQTnBkVXpMST0tLXN1eHlWcnhrZzVCSjRmeFpEY29uZ0E9PQ==--493168ce6719b5f9368b52b9ec6292aab2cf4024)
 
-### Update 2019 - Installing via Docker
-You can now install via docker
-1) Install docker / docker-ce on base system
-2) Clone Project Repo
-```
-$ git clone https://github.com/deadnight7/saikiranBookstoreApp.git
-```
-3) Navigate to docker dir and execute docker-compose
-```
-$ cd saikiranBookstoreApp/docker
-$ docker-compose up -d
-```
-
-Docker compose will perform these steps
-- Hosted project on tomcat locally on port :80 (http://localhost/saikiranBookstoreApp)
-- PhpMyadmin will be exposed on port 7577 (User: root, Password: password)
-- MySQL will be exposed on port 3307 (User: root, Password: password)
-*Make sure all respective ports are open and not used by any other applications
-
-
 ### Video Guides  
 
 * Installation - https://www.youtube.com/watch?v=FnuKUfAiHUM&t=229s
@@ -42,6 +22,26 @@ Docker compose will perform these steps
 	* Top sold products
 	* The monthly sales revenue and purchases being made by the store
 	
+
+### Update 2019 - Installing via Docker
+You can now install via docker
+1) Install docker / docker-ce on base system
+2) Clone Project Repo
+```
+$ git clone https://github.com/deadnight7/saikiranBookstoreApp.git
+```
+3) Navigate to docker dir and execute docker-compose
+```
+$ cd saikiranBookstoreApp/docker
+$ docker-compose up -d
+```
+
+Docker compose will perform these steps
+- Hosted project on tomcat locally on port :80 (http://localhost/saikiranBookstoreApp)
+- PhpMyadmin will be exposed on port 7577 (User: root, Password: password)
+- MySQL will be exposed on port 3307 (User: root, Password: password)
+*Make sure all respective ports are open and not used by any other applications
+
 
 ### Guide to installing saikiranBookStoreApp into your machine
 Prerequisites - Must be having on the client computer before installation
