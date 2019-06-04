@@ -1,2 +1,7 @@
 /build/
 
+.idea
+
+dist
+docker
+e2e_test/webdriver-tests/node_modules
