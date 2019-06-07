@@ -15,19 +15,19 @@ before_install:
 
 - echo $USER
 
+- echo "********* Starting Up Docker Image ********";
+- cd ./docker/
+- docker-compose up &
+
 # get IP Address for remote selenium grid
 - ifconfig
 
 script:
-- echo "********* Starting Up Docker Image ********";
-- cd ./docker/
-- docker-compose up &
 - echo "********* Setting up Tests ********";
-- cd ../e2e_test/webdriver-test/
 - npm install
 - npm install -g chromedriver@2.46.0
+- cd e2e_test/webdriver-test/ && npm test
 - echo "********* Running Tests ********";
-- npm test
 - echo "********* Completed Running Tests ********";
 #- echo "********* Shutting Down Docker Images ********";
 #- cd ../../docker/
