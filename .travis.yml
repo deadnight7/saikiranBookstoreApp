@@ -22,8 +22,8 @@ before_install:
 
 script:
 - echo "********* Setting up Tests ********";
-- npm install
 - npm install -g chromedriver@2.46.0
+- npm i --prefix ./e2e_test/webdriver-tests/
 - pwd
 - npm test --prefix ./e2e_test/webdriver-tests/
 - echo "********* Running Tests ********";
