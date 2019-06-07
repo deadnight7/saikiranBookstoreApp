@@ -27,7 +27,9 @@ script:
 - npm install
 - npm install -g chromedriver@2.46.0
 - pwd
-- cd ../e2e_test/webdriver-test/
+- cd
+- pwd
+- cd ./e2e_test/webdriver-test/
 - npm test
 - echo "********* Running Tests ********";
 - echo "********* Completed Running Tests ********";
