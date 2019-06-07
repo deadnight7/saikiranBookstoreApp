@@ -29,8 +29,7 @@ script:
 - pwd
 - cd ..
 - pwd
-- cd ./e2e_test/webdriver-test/
-- npm test
+-  cd ./e2e_test/webdriver-tests/ && npm test
 - echo "********* Running Tests ********";
 - echo "********* Completed Running Tests ********";
 #- echo "********* Shutting Down Docker Images ********";
