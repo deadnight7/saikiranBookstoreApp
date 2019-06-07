@@ -27,7 +27,7 @@ script:
 - npm install
 - npm install -g chromedriver@2.46.0
 - pwd
-- cd
+- cd ..
 - pwd
 - cd ./e2e_test/webdriver-test/
 - npm test
