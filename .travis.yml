@@ -14,10 +14,8 @@ addons:
 before_install:
 
 - echo $USER
-
 - echo "********* Starting Up Docker Image ********";
-- cd ./docker/
-- docker-compose up &
+- docker-compose -f ./docker/docker-compose.yml up -d
 
 # get IP Address for remote selenium grid
 - ifconfig
@@ -27,9 +25,7 @@ script:
 - npm install
 - npm install -g chromedriver@2.46.0
 - pwd
-- cd ..
-- pwd
--  cd ./e2e_test/webdriver-tests/ && npm test
+- npm test --prefix ./e2e_test/webdriver-tests/
 - echo "********* Running Tests ********";
 - echo "********* Completed Running Tests ********";
 #- echo "********* Shutting Down Docker Images ********";
