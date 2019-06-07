@@ -8,8 +8,8 @@ services:
 addons:
   chrome: stable
   browserstack:
-    username: $BROWSERSTACK_USER
-    access_key: $BROWSERSTACK_PASS
+    username: ${BROWSERSTACK_USER}
+    access_key: ${BROWSERSTACK_PASS}
 
 before_install:
 
@@ -21,7 +21,7 @@ before_install:
 script:
 - echo "********* Starting Up Docker Image ********";
 - cd ./docker/
-- docker-compose up
+- docker-compose up &
 - echo "********* Setting up Tests ********";
 - cd ../e2e_test/webdriver-test/
 - npm install
