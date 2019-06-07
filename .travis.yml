@@ -7,6 +7,9 @@ services:
 
 addons:
   chrome: stable
+  browserstack:
+    username: $BROWSERSTACK_USER
+    access_key: $BROWSERSTACK_PASS
 
 before_install:
 
@@ -16,6 +19,16 @@ before_install:
 - ifconfig
 
 script:
+- echo "********* Starting Up Docker Image ********";
 - cd ./docker/
 - docker-compose up
-- sleep 15m
+- echo "********* Setting up Tests ********";
+- cd ../e2e_test/webdriver-test/
+- npm install
+- npm install -g chromedriver@2.46.0
+- echo "********* Running Tests ********";
+- npm test
+- echo "********* Completed Running Tests ********";
+- echo "********* Shutting Down Docker Images ********";
+- cd ../../docker/
+- docker-compose down

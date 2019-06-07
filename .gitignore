@@ -5,3 +5,7 @@
 dist
 docker
 e2e_test/webdriver-tests/node_modules
+e2e_test/webdriver-tests/.DS_Store
+docker/data
+docker/data/saikiran_enterprises
+build.xml
