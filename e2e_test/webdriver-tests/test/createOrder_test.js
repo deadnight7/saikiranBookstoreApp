@@ -35,7 +35,7 @@ describe("Order Processing", function () {
                                 build();
 
             //driver = await new Builder().forBrowser("chrome").build()
-            driver.manage().window().setSize(1280, 720);
+            driver.manage().window().setSize(1920, 1080);
         })
 
         it("Should be able to search orders", async function () {
