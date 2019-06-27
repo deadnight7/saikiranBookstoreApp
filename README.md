@@ -1,7 +1,7 @@
 # Saikiran Bookstores App
 ##### An Online Retail Management and Custommer Order Processing System
 
-![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=bUJrcGM5VGd4ajRzdHc4a1BFRjRuSTh3QTJEOEpxVWRITHpQTnBkVXpMST0tLXN1eHlWcnhrZzVCSjRmeFpEY29uZ0E9PQ==--493168ce6719b5f9368b52b9ec6292aab2cf4024)
+[![Build Status](https://travis-ci.org/deadnight7/saikiranBookstoreApp.svg?branch=master)](https://travis-ci.org/deadnight7/saikiranBookstoreApp)  [![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=ajZlR3RTa1JyVmhXcmJrRmwzL25DZkJCTDlaV2xWNXZYQWFhQXI4dmlWcz0tLTJLblVqb05QdWJKdG9BWHB6cTY2T1E9PQ==--ed4267af7f7bb087fe691047602a1d733b7d1e3f)](https://www.browserstack.com/automate/public-build/ajZlR3RTa1JyVmhXcmJrRmwzL25DZkJCTDlaV2xWNXZYQWFhQXI4dmlWcz0tLTJLblVqb05QdWJKdG9BWHB6cTY2T1E9PQ==--ed4267af7f7bb087fe691047602a1d733b7d1e3f)
 
 ### Video Guides  
 
