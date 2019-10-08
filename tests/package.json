@@ -1,5 +1,5 @@
 {
-  "name": "saikiranbookstoreapp_reboot",
+  "name": "Tests for Saikiran BookstoreApp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "firebase": "^7.1.0"
+    "cypress": "^3.4.1"
   }
 }
