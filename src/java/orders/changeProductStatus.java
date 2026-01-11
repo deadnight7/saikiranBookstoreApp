@@ -94,7 +94,7 @@ public class changeProductStatus extends HttpServlet {
             
             if (ChangeStatus.equals("approved")){
                 try {
-                    //Approve the pending oreders
+                    //Approve the pending orders
                     /*
         UPDATE  `order` SET 
     `status` =  'approved' WHERE  `order`.`order_id` =16 */
@@ -127,9 +127,9 @@ public class changeProductStatus extends HttpServlet {
                 response.sendRedirect(request.getContextPath()+"/admin_pendingOrders.jsp");
                 
             }else if (ChangeStatus.equals("delivered")){
-                //cancel the pending oreders
+                //cancel the pending orders
                 try {
-                    //Approve the pending oreders
+                    //Approve the pending orders
                     /*
         UPDATE  `order` SET 
     `status` =  'approved' WHERE  `order`.`order_id` =16 */
@@ -161,10 +161,10 @@ public class changeProductStatus extends HttpServlet {
                 response.sendRedirect("/saikiranBookstoreApp/admin_approvedOrders.jsp");
             }
             else if (ChangeStatus.equals("cancel")){
-                //cancel the pending oreders
+                //cancel the pending orders
                 
                 try {
-                    //Approve the pending oreders
+                    //Approve the pending orders
                     /*
         UPDATE  `order` SET 
     `status` =  'approved' WHERE  `order`.`order_id` =16 */
